@@ -1,0 +1,58 @@
+﻿Entity.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "public: void __cdecl Entity::SetImage(char const *,struct SDL_Renderer *)" (?SetImage@Entity@@QEAAXPEBDPEAUSDL_Renderer@@@Z)
+Scene0.obj : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+SceneTitle.obj : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+Entity.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "public: void __cdecl Entity::SetImage(char const *,struct SDL_Renderer *)" (?SetImage@Entity@@QEAAXPEBDPEAUSDL_Renderer@@@Z)
+Scene0.obj : error LNK2001: unresolved external symbol IMG_Load
+SceneTitle.obj : error LNK2001: unresolved external symbol IMG_Load
+GameManager.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: void __cdecl GameManager::Run(void)" (?Run@GameManager@@QEAAXXZ)
+GameManager.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function "public: void __cdecl GameManager::Run(void)" (?Run@GameManager@@QEAAXXZ)
+Scene0.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function "public: virtual bool __cdecl Scene0::OnCreate(void)" (?OnCreate@Scene0@@UEAA_NXZ)
+Scene1.obj : error LNK2001: unresolved external symbol SDL_GetError
+SceneTitle.obj : error LNK2001: unresolved external symbol SDL_GetError
+Window.obj : error LNK2001: unresolved external symbol SDL_GetError
+Scene0.obj : error LNK2019: unresolved external symbol SDL_GetWindowSize referenced in function "public: virtual bool __cdecl Scene0::OnCreate(void)" (?OnCreate@Scene0@@UEAA_NXZ)
+Scene1.obj : error LNK2001: unresolved external symbol SDL_GetWindowSize
+SceneTitle.obj : error LNK2001: unresolved external symbol SDL_GetWindowSize
+Scene0.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "public: virtual bool __cdecl Scene0::OnCreate(void)" (?OnCreate@Scene0@@UEAA_NXZ)
+SceneTitle.obj : error LNK2001: unresolved external symbol SDL_Init
+Window.obj : error LNK2001: unresolved external symbol SDL_Init
+Scene0.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "public: virtual bool __cdecl Scene0::OnCreate(void)" (?OnCreate@Scene0@@UEAA_NXZ)
+Scene1.obj : error LNK2001: unresolved external symbol SDL_CreateRenderer
+SceneTitle.obj : error LNK2001: unresolved external symbol SDL_CreateRenderer
+Scene0.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "public: virtual bool __cdecl Scene0::OnCreate(void)" (?OnCreate@Scene0@@UEAA_NXZ)
+Scene1.obj : error LNK2001: unresolved external symbol SDL_SetRenderDrawColor
+SceneTitle.obj : error LNK2001: unresolved external symbol SDL_SetRenderDrawColor
+Scene0.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "public: virtual void __cdecl Scene0::Render(void)const " (?Render@Scene0@@UEBAXXZ)
+Scene1.obj : error LNK2001: unresolved external symbol SDL_RenderClear
+SceneTitle.obj : error LNK2001: unresolved external symbol SDL_RenderClear
+Scene0.obj : error LNK2019: unresolved external symbol SDL_RenderTextureRotated referenced in function "public: virtual void __cdecl Scene0::Render(void)const " (?Render@Scene0@@UEBAXXZ)
+Scene1.obj : error LNK2001: unresolved external symbol SDL_RenderTextureRotated
+SceneTitle.obj : error LNK2001: unresolved external symbol SDL_RenderTextureRotated
+Scene0.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "public: virtual void __cdecl Scene0::Render(void)const " (?Render@Scene0@@UEBAXXZ)
+Scene1.obj : error LNK2001: unresolved external symbol SDL_RenderPresent
+SceneTitle.obj : error LNK2001: unresolved external symbol SDL_RenderPresent
+Scene0.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "public: virtual void __cdecl Scene0::OnDestroy(void)" (?OnDestroy@Scene0@@UEAAXXZ)
+Scene1.obj : error LNK2001: unresolved external symbol SDL_DestroyRenderer
+SceneTitle.obj : error LNK2001: unresolved external symbol SDL_DestroyRenderer
+Scene0.obj : error LNK2019: unresolved external symbol MIX_Init referenced in function "public: virtual bool __cdecl Scene0::OnCreate(void)" (?OnCreate@Scene0@@UEAA_NXZ)
+SceneTitle.obj : error LNK2001: unresolved external symbol MIX_Init
+Scene0.obj : error LNK2019: unresolved external symbol MIX_Quit referenced in function "public: virtual void __cdecl Scene0::OnDestroy(void)" (?OnDestroy@Scene0@@UEAAXXZ)
+SceneTitle.obj : error LNK2001: unresolved external symbol MIX_Quit
+Scene0.obj : error LNK2019: unresolved external symbol MIX_CreateMixerDevice referenced in function "public: virtual bool __cdecl Scene0::OnCreate(void)" (?OnCreate@Scene0@@UEAA_NXZ)
+SceneTitle.obj : error LNK2001: unresolved external symbol MIX_CreateMixerDevice
+Scene0.obj : error LNK2019: unresolved external symbol MIX_DestroyMixer referenced in function "public: virtual void __cdecl Scene0::OnDestroy(void)" (?OnDestroy@Scene0@@UEAAXXZ)
+SceneTitle.obj : error LNK2001: unresolved external symbol MIX_DestroyMixer
+Scene0.obj : error LNK2019: unresolved external symbol MIX_LoadAudio referenced in function "public: virtual bool __cdecl Scene0::OnCreate(void)" (?OnCreate@Scene0@@UEAA_NXZ)
+SceneTitle.obj : error LNK2001: unresolved external symbol MIX_LoadAudio
+Scene0.obj : error LNK2019: unresolved external symbol MIX_DestroyAudio referenced in function "public: virtual bool __cdecl Scene0::OnCreate(void)" (?OnCreate@Scene0@@UEAA_NXZ)
+SceneTitle.obj : error LNK2001: unresolved external symbol MIX_DestroyAudio
+Scene0.obj : error LNK2019: unresolved external symbol MIX_PlayAudio referenced in function "public: virtual bool __cdecl Scene0::OnCreate(void)" (?OnCreate@Scene0@@UEAA_NXZ)
+SceneTitle.obj : error LNK2001: unresolved external symbol MIX_PlayAudio
+Scene0.obj : error LNK2019: unresolved external symbol MIX_SetMasterGain referenced in function "public: virtual bool __cdecl Scene0::OnCreate(void)" (?OnCreate@Scene0@@UEAA_NXZ)
+SceneTitle.obj : error LNK2001: unresolved external symbol MIX_SetMasterGain
+Timer.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function "public: unsigned int __cdecl Timer::GetSleepTime(unsigned int)const " (?GetSleepTime@Timer@@QEBAII@Z)
+Window.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: bool __cdecl Window::OnCreate(void)" (?OnCreate@Window@@QEAA_NXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "public: void __cdecl Window::OnDestroy(void)" (?OnDestroy@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "public: void __cdecl Window::OnDestroy(void)" (?OnDestroy@Window@@QEAAXXZ)
+D:\Sem3\Midstone\SDL_Midstone_New_Group2 - Portfolio\Dependencies\SDL\lib\x64\SDL3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Sem3\Midstone\SDL_Midstone_New_Group2 - Portfolio\x64\Debug\SDL_Project.exe : fatal error LNK1120: 25 unresolved externals
